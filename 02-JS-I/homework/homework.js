@@ -258,6 +258,9 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
+  //El operador typeof devuelve una cadena que indica el tipo del operando sin evaluarlo. operando 
+  //es la cadena, variable, palabra clave u objeto para el que se devolverá su tipo.
+  
   if (typeof letra === "string" && letra.length === 1){
     if( letra ==="a" || letra ==="e" || letra === "i" || letra === "o" || letra === "u"){
         return "Es vocal";
