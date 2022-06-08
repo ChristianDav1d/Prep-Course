@@ -14,7 +14,7 @@ const {
   esVerdadero,
   tablaDelSeis,
   tieneTresDigitos,
-  doWhile
+  doWhile,
 } = require('../homework');
 
 
